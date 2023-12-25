@@ -1,174 +1,63 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
   padding: 50px 20px;
+  background-color: black;
 }
-header .reg {
-  background-color: rgba(255, 255, 255, 0.6588235294) !important;
+
+h1 {
+  text-align: center;
 }
-header .header-container {
+
+header img {
+  width: 100%;
+}
+.header-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
-header .logo img {
-  max-width: 100%;
-  height: auto;
-}
-header nav ul {
+
+ul {
   list-style: none;
   display: flex;
 }
-header nav ul li {
+li {
   margin-right: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
 }
-header nav ul li a {
-  text-decoration: none;
+a {
   color: #fff;
-}
-header .buttons button {
-  margin-left: 10px;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  color: #000;
-  background-color: #fff;
-  border-radius: 20px;
 }
 
-main .teachers {
-  padding: 80px 20px;
+img {
+  width: 10%;
 }
-main .teachers h1 {
-  font-size: 2em;
-  margin-bottom: 40px;
-  color: #333;
-  text-align: center;
-}
-main .teachers .teachers-container {
-  max-width: 1000px;
-  margin: 0 auto;
+
+.welcome {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-around;
+  align-items: center;
 }
-main .teachers .teachers-container h1 {
-  font-size: 2em;
-  margin-bottom: 40px;
-  color: #333;
-}
-main .teachers .teachers-container .teacher {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  width: 25%;
-  position: relative;
-}
-main .teachers .teachers-container .teacher img {
-  max-width: 60%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-main .teachers .teachers-container .teacher h2 {
-  font-size: 1.8em;
-  margin-bottom: 10px;
-  color: #49BBBD;
-}
-main .teachers .teachers-container .teacher p {
-  font-size: 1.1em;
-  color: #555;
-  margin-bottom: 10px;
-}
-main .requirements {
-  background-color: #fff;
+
+.apply {
   padding: 80px 20px;
-}
-main .requirements .requirements-container {
-  max-width: 800px;
-  margin: 0 auto;
   text-align: center;
-}
-main .requirements .requirements-container h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #333;
-}
-main .requirements .requirements-container p {
-  font-size: 1.2em;
-  color: #555;
-  margin-bottom: 20px;
-}
-main .requirements .requirements-container ul {
-  list-style: circle;
-  padding: 0;
-}
-main .requirements .requirements-container ul li {
-  font-size: 1.1em;
-  color: #555;
-  margin-bottom: 10px;
-}
-main .requirements .requirements-container .btn-apply {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #49BBBD;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   color: #fff;
-  padding: 20px;
 }
-footer .footer-container {
+
+footer ul {
+  display: block;
+}
+
+.footer-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
 }
-footer .footer-container .contact-info,
-footer .footer-container .quick-links,
-footer .footer-container .additional-info {
-  width: 30%;
-}
-footer .footer-container h2 {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-footer .footer-container p {
-  font-size: 16px;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-}
-footer .footer-container ul {
-  list-style: none;
-  padding: 0;
-}
-footer .footer-container li {
-  margin-bottom: 5px;
-}
-footer .footer-container a {
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 5px;
-}
-footer .footer-container a:hover {
-  text-decoration: underline;
-}/*# sourceMappingURL=teachers.css.map */
